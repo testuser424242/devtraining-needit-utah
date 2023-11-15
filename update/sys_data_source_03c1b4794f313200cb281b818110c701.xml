@@ -2,12 +2,17 @@
     <sys_data_source action="INSERT_OR_UPDATE">
         <batch_size/>
         <category/>
+        <connection_alias/>
+        <connection_override_last_success_time/>
         <connection_timeout>0</connection_timeout>
         <connection_url>attachment://sys_data_source:03c1b4794f313200cb281b818110c701/needitimportdata.csv</connection_url>
         <connection_url_parameters/>
         <csv_delimiter/>
         <data_in_single_column>false</data_in_single_column>
         <data_loader/>
+        <data_stream_action/>
+        <data_stream_action_inputs/>
+        <data_stream_connection_alias/>
         <database_name/>
         <database_port/>
         <discard_arrays>false</discard_arrays>
@@ -70,4 +75,5 @@
         <xpath_root_node/>
         <zipped>false</zipped>
     </sys_data_source>
+    <sys_variable_value action="delete_multiple" query="document_key=03c1b4794f313200cb281b818110c701"/>
 </record_update>
